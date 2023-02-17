@@ -1,3 +1,4 @@
 import { app } from "./app";
+import phoneMask from "./shared/directives/phoneMask";
 
-app.mount("#app");
+app.directive("phone", phoneMask).mount("#app");
