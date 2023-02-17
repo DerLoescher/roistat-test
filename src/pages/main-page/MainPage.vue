@@ -37,7 +37,6 @@ export default {
       usersTree: [],
       modalIsOpen: false,
       formIsNotFulfilled: false,
-      testResult: null,
     };
   },
   computed: {
